@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#164d41"><meta name="description" content="engineering-8team 캠퍼스 우산 대여 서비스">
+<title>우산 한 자루 | engineering-8team</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<header class="header"><a class="brand" href="./"><span class="brand-icon">☂</span> 우산 한 자루<span class="brand-sub">engineering-8team</span></a><span class="mode"><i></i> 시뮬레이션 모드</span></header>
+<main>
+<section class="hero"><div class="hero-copy"><span class="eyebrow">RAINY DAY, EASY WAY</span><h1>갑작스러운 비에도,<br>가벼운 발걸음.</h1><p>필요할 때 빌리고, 사용한 뒤 돌려주세요.<br>함께 쓰는 작은 배려가 더 편한 캠퍼스를 만듭니다.</p><div class="hero-note"><span>↗</span> 공학설계입문 · 8팀 프로젝트</div></div><div class="illustration" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="rain rain-one"></span><span class="rain rain-two"></span><span class="rain rain-three"></span><div class="umbrella"><div class="canopy"><div></div></div><div class="shaft"></div><div class="handle"></div></div><div class="ground"></div><span class="art-tag">A LITTLE SHELTER, A BETTER DAY.</span></div></section>
+<section class="dashboard" aria-label="우산 대여 관리">
+<div class="section-heading"><div><span class="eyebrow">UMBRELLA STATION</span><h2>지금, 우산이 필요하신가요?</h2></div><span class="station"><i></i> 캠퍼스 스테이션 01</span></div>
+<div class="cards"><article class="inventory card"><div class="card-top"><h3>대여 가능한 우산</h3><span class="small-icon">☂</span></div><div class="count"><strong id="available">—</strong><span>/ <span id="total">—</span>개</span></div><div class="meter"><div id="meter-fill"></div></div><div class="inventory-bottom"><span id="inventory-note">현황을 확인하고 있습니다</span><span>실시간 시뮬레이션</span></div></article>
+<article class="rental card"><div class="card-top"><h3>나의 대여 상태</h3><span id="status-badge" class="badge">확인 중</span></div><div class="status-main"><span id="status-icon" class="status-icon">↗</span><div><h4 id="status-title">상태 확인 중</h4><p id="status-description">잠시만 기다려주세요.</p></div></div><div class="actions"><button id="rent" class="button primary" disabled><span>☂</span> 우산 빌리기 <span>↗</span></button><button id="return" class="button secondary" disabled>↩ 우산 반납하기</button></div><p class="device-note">이 브라우저에서 대여한 우산의 상태가 표시됩니다.</p></article></div>
+<div id="notice" class="notice" role="status" aria-live="polite">우산 현황을 불러오고 있습니다.</div>
+</section>
+<section class="how"><div><span class="eyebrow">HOW IT WORKS</span><h2>빌리는 순간부터, 돌려주는 순간까지.</h2></div><ol><li><span class="step">01</span><div><h3>남은 우산 확인</h3><p>스테이션의 대여 가능 수량을 확인해요.</p></div></li><li><span class="step">02</span><div><h3>버튼 한 번으로 대여</h3><p>우산 빌리기를 누르면 대여가 시작돼요.</p></div></li><li><span class="step">03</span><div><h3>다음 사람을 위해 반납</h3><p>사용 후 반납 버튼을 눌러 완료해요.</p></div></li></ol></section>
+<aside class="simulation"><span class="info-icon">i</span><p><strong>지금은 시뮬레이션으로 운영 중이에요.</strong> 실제 보관함이나 Arduino와 연결되어 있지 않습니다. 대여 정보는 이 브라우저에만 저장됩니다.</p></aside>
+</main>
+<footer><a class="footer-brand" href="./">☂ 우산 한 자루</a><span>작은 아이디어로 만드는 더 나은 캠퍼스.</span><span>© engineering-8team</span></footer>
+</body></html>
